@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+body {
+  font-family: "Kalam", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+nav {
+  background-color: #e3f2fd;
+}
+section {
+  min-height: 100vh;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url(../images/bg.jpg);
+  border: white 5px solid;
+  color: white;
+  font-weight: bold;
+}
