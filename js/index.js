@@ -34,7 +34,7 @@ searchInput.addEventListener('change', function () {
 
 async function searchCountry(country) {
   try {
-    const apiSearch = await fetch(`http://api.weatherapi.com/v1/search.json?key=27b18dee6e9f4c2c8cc182244241006&q=${country}`);
+    const apiSearch = await fetch(`https://api.weatherapi.com/v1/search.json?key=27b18dee6e9f4c2c8cc182244241006&q=${country}`);
     const searchData = await apiSearch.json();
     if (searchData && searchData.length > 0) {
       getWeather(searchData[0].name);
